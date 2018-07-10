@@ -1,21 +1,23 @@
-# AWS Signed Api for Mos services
+# Serverless tests
+
+Class and funtions useful to run integration tests in serverless.
 
 ## Installation
 
 ```shell
-npm install --save Askmos/acceptance-test-utils
+npm install --save Askmos/serverless-tests
 ```
 
 or
 
 ```shell
-yarn add Askmos/acceptance-test-utils
+yarn add Askmos/serverless-tests
 ```
 
 ## Usage
 
 ```javascript
-const { User } = require('acceptance-test-utils');
+const { User } = require('serverless-tests');
 const API = require('aws-signed-api');
 
 const baseUrl = 'https://api-staging.mos.com'

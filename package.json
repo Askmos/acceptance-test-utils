@@ -1,18 +1,19 @@
 {
-  "name": "acceptance-test-utils",
+  "name": "serverless-tests",
   "engines": {
     "node": ">=6.9.5"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Class and functions useful to run acceptance tests - such as creating users, getting credentials etc.",
   "main": "index.js",
-  "repository": "Askmos/acceptance-test-utils",
+  "repository": "Askmos/serverless-tests",
   "keywords": [
     "aws",
     "mos",
     "test",
     "api",
-    "authorization"
+    "authorization",
+    "serverless"
   ],
   "author": "David Zhang",
   "scripts": {
@@ -27,9 +28,9 @@
   },
   "private": true,
   "bugs": {
-    "url": "https://github.com/Askmos/acceptance-test-utils/issues"
+    "url": "https://github.com/Askmos/serverless-tests/issues"
   },
-  "homepage": "https://github.com/Askmos/acceptance-test-utils",
+  "homepage": "https://github.com/Askmos/serverless-tests",
   "dependencies": {
     "aws-sdk": "^2.270.1",
     "chance": "^1.0.16"
